@@ -35,7 +35,8 @@ GUÍA DE INSTALACIÓN SHIELDNET-APP
 ----------------------------------
 Ejecutar dentro del entorno virtual:
 
-pip install flask flask-cors mysql-connector-python scikit-learn joblib pandas
+pip install flask flask-cors mysql-connector-python scikit-learn joblib
+pip install flask scikit-learn joblib sqlalchemy pymysql
 pip install pandas
 pip freeze > requirements.txt
 
@@ -89,3 +90,4 @@ pip freeze > requirements.txt
 
 Luego, en otro equipo puedes instalar todo con:
 pip install -r requirements.txt
+
